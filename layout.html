@@ -1,271 +1,261 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Layout Gym</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Layout Gym Responsive</title>
 </head>
 
-<body class="bg-gray-100 p-8 w-full">
+<body class="bg-gray-100 text-slate-900 dark:bg-slate-900 dark:text-white p-4 lg:p-8 w-full">
 
-    <h1 class="text-2xl font-bold text-center mb-8">
-        Nine Positions
+    <h1 class="text-center text-2xl font-bold mb-8">
+        Layout Gym
     </h1>
 
-   <section class="mb-10">
-    <div class="grid grid-cols-3 gap-6  mx-auto">
-
-        <div>
-            <p class="text-center font-semibold mb-2">Top Left</p>
-
-            <div class="h-64 border-2 border-gray-400 bg-white flex items-start justify-start p-2">
-                <button class="bg-slate-600 text-white px-4 py-2 rounded">
-                    Box
-                </button>
-            </div>
-        </div>
-
-        <div>
-            <p class="text-center font-semibold mb-2">Top Center</p>
-
-            <div class="h-64 border-2 border-gray-400 bg-white flex items-start justify-center p-2">
-                <button class="bg-slate-600 text-white px-4 py-2 rounded">
-                    Box
-                </button>
-            </div>
-        </div>
-
-
-        <div>
-            <p class="text-center font-semibold mb-2">Top Right</p>
-
-            <div class="h-64 border-2 border-gray-400 bg-white flex items-start justify-end p-2">
-                <button class="bg-slate-600 text-white px-4 py-2 rounded">
-                    Box
-                </button>
-            </div>
-        </div>
-
-        <div>
-            <p class="text-center font-semibold mb-2">Middle Left</p>
-
-            <div class="h-64 border-2 border-gray-400 bg-white flex items-center justify-start p-2">
-                <button class="bg-slate-600 text-white px-4 py-2 rounded">
-                    Box
-                </button>
-            </div>
-        </div>
-
-        <div>
-            <p class="text-center font-semibold mb-2">Center</p>
-
-            <div class="h-64 border-2 border-gray-400 bg-white flex items-center justify-center p-2">
-                <button class="bg-slate-600 text-white px-4 py-2 rounded">
-                    Box
-                </button>
-            </div>
-        </div>
-
-        <div>
-            <p class="text-center font-semibold mb-2">Middle Right</p>
-
-            <div class="h-64 border-2 border-gray-400 bg-white flex items-center justify-end p-2">
-                <button class="bg-slate-600 text-white px-4 py-2 rounded">
-                    Box
-                </button>
-            </div>
-        </div>
-
-        <div>
-            <p class="text-center font-semibold mb-2">Bottom Left</p>
-
-            <div class="h-64 border-2 border-gray-400 bg-white flex items-end justify-start p-2">
-                <button class="bg-slate-600 text-white px-4 py-2 rounded">
-                    Box
-                </button>
-            </div>
-        </div>
-
-        <div>
-            <p class="text-center font-semibold mb-2">Bottom Center</p>
-
-            <div class="h-64 border-2 border-gray-400 bg-white flex items-end justify-center p-2">
-                <button class="bg-slate-600 text-white px-4 py-2 rounded">
-                    Box
-                </button>
-            </div>
-        </div>
-
-        <div>
-            <p class="text-center font-semibold mb-2">Bottom Right</p>
-
-            <div class="h-64 border-2 border-gray-400 bg-white flex items-end justify-end p-2">
-                <button class="bg-slate-600 text-white px-4 py-2 rounded">
-                    Box
-                </button>
-            </div>
-        </div>
-
-    </div>
-</section>
-<!--Exercise 2-->
- <section class="mb-10">
-        <h2 class="text-2xl font-bold mb-4">
-           Navigation Bar
+    <!-- Exercise 1 - Nine Positions -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-bold mb-8">
+            Exercise 1 - Nine Positions
         </h2>
 
-        <nav class="border p-4 w-full  mx-auto bg-slate-800 text-white">
-            <div class="flex items-center justify-between">
-                <div class="font-bold text-xl">Layout Gym</div>
-                <div class="flex gap-6">
-                    <a href="#" class="hover:text-blue-600">
-                        Home
-                    </a>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-10 mx-auto">
 
-                    <a href="#" class="hover:text-blue-600">
-                        About
-                    </a>
-
-                    <a href="#" class="hover:text-blue-600">
-                        Services
-                    </a>
-
-                    <a href="#" class="hover:text-blue-600">
-                        Contact
-                    </a>
+            <div>
+                <p class="text-center font-semibold mb-2">Top Left</p>
+                <div class="h-64 border-2 border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 flex items-start justify-start p-2">
+                    <button class="bg-slate-600 dark:bg-slate-700 text-white px-4 py-2 rounded">Box</button>
                 </div>
-                <button
-                    class="px-4 py-2 bg-slate-600 text-white rounded
-                           hover:bg-slate-900
-                           focus-visible:outline-none
-                           focus-visible:ring-2
-                           focus-visible:ring-blue-500">
+            </div>
+
+            <div>
+                <p class="text-center font-semibold mb-2">Top Center</p>
+                <div class="h-64 border-2 border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 flex items-start justify-center p-2">
+                    <button class="bg-slate-600 dark:bg-slate-700 text-white px-4 py-2 rounded">Box</button>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-center font-semibold mb-2">Top Right</p>
+                <div class="h-64 border-2 border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 flex items-start justify-end p-2">
+                    <button class="bg-slate-600 dark:bg-slate-700 text-white px-4 py-2 rounded">Box</button>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-center font-semibold mb-2">Middle Left</p>
+                <div class="h-64 border-2 border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 flex items-center justify-start p-2">
+                    <button class="bg-slate-600 dark:bg-slate-700 text-white px-4 py-2 rounded">Box</button>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-center font-semibold mb-2">Center</p>
+                <div class="h-64 border-2 border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 flex items-center justify-center p-2">
+                    <button class="bg-slate-600 dark:bg-slate-700 text-white px-4 py-2 rounded">Box</button>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-center font-semibold mb-2">Middle Right</p>
+                <div class="h-64 border-2 border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 flex items-center justify-end p-2">
+                    <button class="bg-slate-600 dark:bg-slate-700 text-white px-4 py-2 rounded">Box</button>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-center font-semibold mb-2">Bottom Left</p>
+                <div class="h-64 border-2 border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 flex items-end justify-start p-2">
+                    <button class="bg-slate-600 dark:bg-slate-700 text-white px-4 py-2 rounded">Box</button>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-center font-semibold mb-2">Bottom Center</p>
+                <div class="h-64 border-2 border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 flex items-end justify-center p-2">
+                    <button class="bg-slate-600 dark:bg-slate-700 text-white px-4 py-2 rounded">Box</button>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-center font-semibold mb-2">Bottom Right</p>
+                <div class="h-64 border-2 border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 flex items-end justify-end p-2">
+                    <button class="bg-slate-600 dark:bg-slate-700 text-white px-4 py-2 rounded">Box</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Exercise 2 - Navigation Bar -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-bold mb-4">
+            Exercise 2 - Navigation Bar
+        </h2>
+
+        <nav class="border border-slate-700 dark:border-slate-600 p-4 w-full mx-auto bg-slate-800 dark:bg-slate-900 text-white">
+
+            <div class="flex items-center justify-between">
+
+                <div class="font-bold text-xl">
+                    Layout Gym
+                </div>
+
+                <div class="hidden md:flex gap-6">
+                    <a href="#" class="hover:text-blue-400">Home</a>
+                    <a href="#" class="hover:text-blue-400">About</a>
+                    <a href="#" class="hover:text-blue-400">Services</a>
+                    <a href="#" class="hover:text-blue-400">Contact</a>
+                </div>
+
+                <button class="px-4 py-2 bg-slate-600 hover:bg-slate-500 text-white rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-400">
                     Sign up
+                </button>
+
+                <button class="md:hidden text-white" aria-label="open menu">
+                    ☰
                 </button>
 
             </div>
         </nav>
     </section>
 
-<!-- Exercise 3 -->
 
-<section class="mb-10">
-    <h2 class="text-2xl font-bold mb-4">
-      Comment List 
-    </h2>
+    <!-- Exercise 3 - Comment List -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-bold mb-4">
+            Comment List
+        </h2>
 
-    <div class="space-y-6">
-        <div class="flex gap-4">
-            <div class="w-12 h-12 shrink-0 bg-slate-600 text-white rounded-full flex items-center justify-center">
-                A
+        <div class="space-y-6">
+
+            <div class="flex gap-4 border border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 p-4 rounded-lg">
+                <div class="w-12 h-12 shrink-0 bg-slate-600 text-white rounded-full flex items-center justify-center">
+                    A
+                </div>
+
+                <div>
+                    <h3 class="font-bold">Alice</h3>
+                    <p class="text-slate-600 dark:text-slate-300">
+                        This is a great design. I really like how simple and clean it looks.
+                    </p>
+                </div>
             </div>
 
-            <div>
-                <h3 class="font-bold">Alice</h3>
-                <p class="text-slate-600">
-                    This is a great design. I really like how simple and clean it looks.
-                </p>
+            <div class="flex gap-4 border border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 p-4 rounded-lg">
+                <div class="w-12 h-12 shrink-0 bg-slate-600 text-white rounded-full flex items-center justify-center">
+                    B
+                </div>
+
+                <div>
+                    <h3 class="font-bold">Brian</h3>
+                    <p class="text-slate-600 dark:text-slate-300">
+                        The layout is easy to understand and works well on different screen sizes.
+                    </p>
+                </div>
             </div>
+
+            <div class="flex gap-4 border border-gray-400 dark:border-slate-600 bg-white dark:bg-slate-800 p-4 rounded-lg">
+
+                <div class="w-12 h-12 shrink-0 bg-slate-600 text-white rounded-full flex items-center justify-center">
+                    C
+                </div>
+
+                <div>
+                    <h3 class="font-bold">Charlie</h3>
+
+                    <p class="text-slate-600 dark:text-slate-300">
+                        This is a very long comment that is intentionally written to contain enough text to test the media-object layout.
+                    </p>
+                </div>
+
+            </div>
+
         </div>
+    </section>
 
 
-        <div class="flex gap-4">
-            <div class="w-12 h-12 shrink-0 bg-slate-600 text-white rounded-full flex items-center justify-center">
-                B
+    <!-- Exercise 4 - Dashboard Grid -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-bold mb-4">
+            Exercise 4 - Dashboard Grid
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+
+            <div class="col-span-1 md:col-span-2 border border-slate-500 dark:border-slate-600 p-6 bg-slate-600 dark:bg-slate-800 text-white">
+                Card 1
             </div>
 
-           
-            <div>
-                <h3 class="font-bold">Brian</h3>
-                <p class="text-slate-600">
-                    The layout is easy to understand and works well on different screen sizes.
-                </p>
+            <div class="border border-slate-500 dark:border-slate-600 p-6 bg-slate-600 dark:bg-slate-800 text-white">
+                Card 2
             </div>
+
+            <div class="row-span-1 md:row-span-2 border border-slate-500 dark:border-slate-600 p-6 bg-slate-600 dark:bg-slate-800 text-white">
+                Card 3
+            </div>
+
+            <div class="border border-slate-500 dark:border-slate-600 p-6 bg-slate-600 dark:bg-slate-800 text-white">
+                Card 4
+            </div>
+
+            <div class="col-span-full border border-slate-500 dark:border-slate-600 p-6 bg-slate-700 dark:bg-slate-900 text-white">
+                Card 5
+            </div>
+
         </div>
+    </section>
 
-        <div class="flex gap-4">
 
-            <div class="w-12 h-12 shrink-0 bg-slate-600 text-white rounded-full flex items-center justify-center">
-                C
+    <!-- Exercise 5 - Whole Page Layout -->
+    <section class="mb-10">
+        <h2 class="text-2xl font-bold mb-4">
+           Exercise 5 - Whole Page Layout
+        </h2>
+
+        <div class="min-h-screen flex flex-col border border-gray-400 dark:border-slate-600">
+
+            <header class="bg-slate-700 dark:bg-slate-800 p-4 font-bold text-center text-white">
+                Header
+            </header>
+
+            <div class="flex flex-col md:flex-row flex-1">
+
+                <aside class="w-full md:w-[220px] bg-slate-600 dark:bg-slate-800 p-4 font-bold text-white flex justify-center items-center">
+                    Sidebar
+                </aside>
+
+                <main class="flex-1 p-4 bg-white dark:bg-slate-900 flex justify-center items-center">
+                    Main Area
+                </main>
+
             </div>
 
-            <div>
-                <h3 class="font-bold">Charlie</h3>
-                <p class="text-slate-600">
-                    This is a very long comment that is intentionally written to contain
-                    enough text to test the media-object layout. The purpose is to make
-                    sure that even when the comment becomes very long and takes several
-                    lines, the avatar keeps its original size and does not become smaller.
-                    The avatar should remain fixed while the text takes the available
-                    space beside it.
-                </p>
-            </div>
+            <footer class="bg-slate-500 dark:bg-slate-700 p-4 text-white">
+                Footer
+            </footer>
+
         </div>
+    </section>
 
+    <section class="mb-10">
+<h2 class="text-2xl font-bold mb-4">Task 4 - Hero Section </h2>
+<div class=" border border:bg-black-200 rounded p-4 flex flex-col gap-8 dark:bg-slate-800 bg-white">
+    <div class="flex-1">
+     <h1 class="text-3xl lg:text-5xl font-bold mb-4"> Build Better Layout</h1>
+     <p class="text-slate-600 dark:text-slate-300 mb-6">Learn how to create responsive layout using tailwind CSS.</p>
+     <div class="flex flex-col sm:flex-row gap-3" >
+        <button class="w-full sm:w-auto px-6 py-3 bg-blue-900 hover:bg-blue-700 text-white rounded-full">Get Start</button>
+        <button class="w-full sm:w-auto px-6 py-3 bg-blue-900 hover:bg-blue-700 text-white rounded-full">Learn More</button>
+     </div>
     </div>
-</section>
+    <div class="flex-1">
+        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72" alt=" Modern workplace" class="w-full rounded-lg">
+   </div>
+   </div>
 
-<!-- Exercise 4 -->
-<section class="mb-10">
-
-    <h2 class="text-2xl font-bold mb-4">
-        Exercise 4 — Dashboard Grid
-    </h2>
-
-    <div class="grid grid-cols-4 gap-4">
-        <div class="col-span-2 border p-6 bg-slate-600 text-white">
-            Card 1
-        </div>
-
-        <div class="border p-6 bg-slate-600 text-white">
-            Card 2
-        </div>
-
-        <div class="row-span-2 border p-6 bg-slate-600 text-white">
-            Card 3
-        </div>
-
-        <div class="border p-6 bg-slate-600 text-white">
-            Card 4
-        </div>
-
-        <div class="col-span-full border p-6 bg-slate-700 text-white">
-            Card 5
-        </div>
-
-    </div>
-
-</section>
-<!--exercise 5-->
-
-  <section class="mb-10">
-  <h2 class="text-2xl font-bold mb-4">whole page layout</h2>
-
-  <div class="min-h-screen flex flex-col border">
-    <header class="bg-gray-500 p-4 font-bold text-center size-200">
-      Header
-    </header>
-
-    <div class="flex flex-1">
-      <aside class="w-[220px] bg-gray-400 p-4 font-bold">
-        Sidebar
-      </aside>
-
-      <main class="flex-1 p-4">
-        Main Area
-      </main>
-
-    </div>
-
-    <footer class="bg-gray-300 p-4">
-      Footer
-    </footer>
-
-  </div>
-</section>
+    </section>
 
 </body>
 </html>
-
