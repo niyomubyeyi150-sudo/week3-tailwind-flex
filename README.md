@@ -142,7 +142,7 @@ The page was also tested in both light and dark modes using browser DevTools.
 
 ### Dark Mode
 
-![Dark Mode Screenshot](![dark-mode layout](image-9.png))
+![Dark Mode Screenshot](![dark mode layout](image-10.png))
 
 ## Project Structure
 
