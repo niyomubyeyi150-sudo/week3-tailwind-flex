@@ -98,8 +98,8 @@ At 360px:
 
 **Screenshot:**
 
-![360px Screenshot](![hero section](image-6.png))
-![360px Screenshot](![page layout](image-7.png))
+![360px Screenshot](![hero section](/image/image-6.png))
+![360px Screenshot](![page layout](/image/image-7.png))
 
 ### 768px — Tablet
 
@@ -112,8 +112,8 @@ At 768px:
 
 **Screenshot:**
 
-![768px Screenshot](![ nine-position-768px](image.png))
-![768px Screenshot](![navigation and comment](image-5.png))
+![768px Screenshot](![ nine-position-768px](/image/image.png))
+![768px Screenshot](![navigation and comment](/image/image-5.png))
 
 ### 1280px — Desktop
 
@@ -127,10 +127,10 @@ At 1280px:
 
 **Screenshot:**
 
-![1280px Screenshot]([nine position](image-1.png))
-![1280px Screenshot](![navigation and comment](image-2.png))
-![1280px Screenshot]([page layout](image-3.png))
-![1280px Screenshot](![hero section](image-4.png))
+![1280px Screenshot]([nine position](/image/image-1.png))
+![1280px Screenshot](![navigation and comment](/image/image-2.png))
+![1280px Screenshot]([page layout](/image/image-3.png))
+![1280px Screenshot](![hero section](/image/image-4.png))
 
 ## Dark Mode Screenshots
 
@@ -138,15 +138,13 @@ The page was also tested in both light and dark modes using browser DevTools.
 
 ### Light Mode
 
-![Light Mode Screenshot](![light mode layout](image-8.png))
+![Light Mode Screenshot](![light mode layout](/image/image-8.png))
 
 ### Dark Mode
 
-![Dark Mode Screenshot](![dark mode layout](image-10.png))
+![Dark Mode Screenshot](![dark mode layout](/image/image-10.png))
 
 ## Project Structure
-
-```text
 week3-tailwind/
 │
 ├── layouts.html
